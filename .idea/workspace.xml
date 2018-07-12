@@ -1,0 +1,1381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b499611a-c135-45fb-81fd-a5535bc1ad14" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Controller/KMeans.java" afterPath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Controller/KMeans.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Controller/LabelApplication.java" afterPath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Controller/LabelApplication.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Controller/TaskController.java" afterPath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Controller/TaskController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Controller/UrlController.java" afterPath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Controller/UrlController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskId/TaskId.txt" afterPath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskId/TaskId.txt" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskImg/2/0.txt" afterPath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskImg/2/0.txt" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskImg/3/0.txt" afterPath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskImg/3/0.txt" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskImg/4/0.txt" afterPath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskImg/4/0.txt" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskImg/5/0.txt" afterPath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskImg/5/0.txt" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskImg/6/0.txt" afterPath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskImg/6/0.txt" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskImg/7/0.txt" afterPath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskImg/7/0.txt" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskImg/8/0.txt" afterPath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskImg/8/0.txt" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskInformation/TaskInformation.txt" afterPath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskInformation/TaskInformation.txt" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/0/description.txt" afterPath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/0/description.txt" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/1/description.txt" afterPath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/1/description.txt" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/2/description.txt" afterPath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/2/description.txt" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/3/description.txt" afterPath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/3/description.txt" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/4/description.txt" afterPath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/4/description.txt" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/5/description.txt" afterPath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/5/description.txt" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/6/description.txt" afterPath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/6/description.txt" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/7/description.txt" afterPath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/7/description.txt" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/8/12.txt" afterPath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/8/12.txt" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/8/Wzq.txt" afterPath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/8/Wzq.txt" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/8/accuracy.txt" afterPath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/8/accuracy.txt" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/8/description.txt" afterPath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/8/description.txt" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/UserHobby/Wzq.txt" afterPath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/UserHobby/Wzq.txt" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/UserTaskIndexList/12.txt" afterPath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/UserTaskIndexList/12.txt" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/UserTaskIndexList/123.txt" afterPath="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/UserTaskIndexList/123.txt" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="TaskController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Controller/TaskController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20194">
+              <caret line="893" column="42" lean-forward="false" selection-start-line="893" selection-start-column="42" selection-end-line="893" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaskId.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskId/TaskId.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="description.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/9/description.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KMeans.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Controller/KMeans.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1035">
+              <caret line="50" column="5" lean-forward="false" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LabelApplication.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Controller/LabelApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="12.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/8/12.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="108" lean-forward="false" selection-start-line="3" selection-start-column="108" selection-end-line="3" selection-end-column="108" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="123.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/8/123.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="12345.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/8/12345.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="113" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="123456.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/8/123456.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Wzq.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/8/Wzq.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>am-icon-sign-out</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/mytask_joined.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/label.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/releaseTask.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Dao/Task.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Dao/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskTemporaryFile/1/123.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/selfpage.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/selfpageeditor.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/taskdetails.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/taskdetails_requestor.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/1/description.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/work.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/TaskView.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/savetheLabel.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/selfpage.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/administrator.js" />
+        <option value="$PROJECT_DIR$/src/test/java/com/seciii/crowdsourcing/LabelApplicationTests.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/administrator.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/login.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/UserInformation/UserInformation.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/taskdetails.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Controller/UrlController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/0/3.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/0/4.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/0/5.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/0/6.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/0/7.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/0/8.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/0/412385348.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/0/9.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/taskdetails_requestor.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/0/1.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/0/2.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/assets/css/amazeui.flat.min.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskId/TaskId.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskInformation/TaskInformation.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/UserHobby/123.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/UserList/UserList.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/viewtheLabel.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/releaseTask.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/assets/css/admin.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/assets/css/amazeui.min.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/lib/pace.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/mainpage.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/loadAllTasks.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/8/123.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Controller/KMeans.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/8/12.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Controller/TaskController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Controller/LabelApplication.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="247" />
+    <option name="y" value="49" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="label" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crowdsourcing_lteration3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="label" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crowdsourcing_lteration3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="label" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crowdsourcing_lteration3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="label" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crowdsourcing_lteration3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="label" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crowdsourcing_lteration3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="label" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crowdsourcing_lteration3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="seciii" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="label" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crowdsourcing_lteration3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="seciii" type="462c0819:PsiDirectoryNode" />
+              <item name="crowdsourcing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="label" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crowdsourcing_lteration3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="seciii" type="462c0819:PsiDirectoryNode" />
+              <item name="crowdsourcing" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="label" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crowdsourcing_lteration3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="seciii" type="462c0819:PsiDirectoryNode" />
+              <item name="crowdsourcing" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="SearchEverywhereHistoryKey" value="checkAllWorker&#9;null&#9;null" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\study\大二\III\Crowdsourcing_lteration3(2)\Crowdsourcing_lteration3\src\main\resources\static\assets\css" />
+      <recent name="F:\study\大二\III\Crowdsourcing_lteration3(2)\Crowdsourcing_lteration3\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration name="LabelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.seciii.crowdsourcing.Controller.LabelApplication" />
+      <module name="label" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b499611a-c135-45fb-81fd-a5535bc1ad14" name="Default" comment="" />
+      <created>1527303688635</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527303688635</updated>
+      <workItem from="1527303690002" duration="2202000" />
+      <workItem from="1527417432072" duration="3363000" />
+      <workItem from="1527420825567" duration="5178000" />
+      <workItem from="1527491556097" duration="2544000" />
+      <workItem from="1527500179249" duration="607000" />
+      <workItem from="1527511746026" duration="2612000" />
+      <workItem from="1527514393622" duration="1596000" />
+      <workItem from="1527516364515" duration="3054000" />
+      <workItem from="1527764887554" duration="1151000" />
+      <workItem from="1527919857317" duration="4599000" />
+      <workItem from="1527990087114" duration="17988000" />
+      <workItem from="1528114586443" duration="5821000" />
+      <workItem from="1528281899736" duration="2639000" />
+      <workItem from="1528284937296" duration="21000" />
+      <workItem from="1528455151208" duration="1274000" />
+      <workItem from="1528456513290" duration="6592000" />
+      <workItem from="1528509207880" duration="4007000" />
+      <workItem from="1528524808896" duration="5503000" />
+      <workItem from="1528530440444" duration="196000" />
+      <workItem from="1528557172060" duration="9142000" />
+      <workItem from="1528595008266" duration="7864000" />
+      <workItem from="1528886834360" duration="8767000" />
+      <workItem from="1528941776077" duration="3605000" />
+      <workItem from="1528963708824" duration="4807000" />
+      <workItem from="1528973341229" duration="3887000" />
+      <workItem from="1529074491527" duration="151000" />
+      <workItem from="1529126072827" duration="1830000" />
+      <workItem from="1529128020761" duration="1253000" />
+      <workItem from="1529129654010" duration="1121000" />
+      <workItem from="1529162072511" duration="58000" />
+      <workItem from="1529198852593" duration="8738000" />
+      <workItem from="1529472897749" duration="5685000" />
+      <workItem from="1529498973217" duration="1540000" />
+      <workItem from="1529516712867" duration="7091000" />
+      <workItem from="1529542026002" duration="2693000" />
+      <workItem from="1530970529743" duration="1098000" />
+      <workItem from="1531380864863" duration="694000" />
+    </task>
+    <task id="LOCAL-00001" summary="基本实现url映射&#10;新建了一个任务以测试发布任务功能">
+      <created>1527516866780</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1527516866780</updated>
+    </task>
+    <task id="LOCAL-00002" summary="修改了文件夹的结构">
+      <created>1527517100441</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1527517100441</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修改了文件夹的结构">
+      <created>1527517852951</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1527517852951</updated>
+    </task>
+    <task id="LOCAL-00004" summary="微调">
+      <created>1527519158365</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1527519158365</updated>
+    </task>
+    <task id="LOCAL-00005" summary="微调">
+      <created>1527519189781</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1527519189781</updated>
+    </task>
+    <task id="LOCAL-00006" summary="整合方框">
+      <created>1528114689531</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1528114689531</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Merge branch 'master' of http://114.215.188.21/secIII/Crowdsourcing_lteration3&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Controller/TaskController.java&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskInformation/TaskInformation.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/UserTaskIndexList/123.txt&#10;#&#9;src/main/resources/static/js/mytask_built.js&#10;#&#9;src/main/resources/static/js/mytask_joined.js&#10;#&#9;src/main/resources/static/js/taskdetails_requestor.js&#10;#&#9;src/main/resources/static/js/viewtheLabel.js">
+      <created>1528115147313</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1528115147313</updated>
+    </task>
+    <task id="LOCAL-00008" summary="完成url映射">
+      <created>1528116857462</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1528116857462</updated>
+    </task>
+    <task id="LOCAL-00009" summary="完成url映射">
+      <created>1528116874025</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1528116874025</updated>
+    </task>
+    <task id="LOCAL-00010" summary="完成url映射">
+      <created>1528117922935</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1528117922935</updated>
+    </task>
+    <task id="LOCAL-00011" summary="完成url映射">
+      <created>1528118996244</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1528118996244</updated>
+    </task>
+    <task id="LOCAL-00012" summary="完成url映射">
+      <created>1528119035428</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1528119035428</updated>
+    </task>
+    <task id="LOCAL-00013" summary="完成url映射">
+      <created>1528119139492</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1528119139492</updated>
+    </task>
+    <task id="LOCAL-00014" summary="完成url映射">
+      <created>1528119459737</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1528119459737</updated>
+    </task>
+    <task id="LOCAL-00015" summary="推荐功能点支持">
+      <created>1528284514196</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1528284514196</updated>
+    </task>
+    <task id="LOCAL-00016" summary="1.整合标注算法修改&#10;2.发布任务前端修改，添加了kindOfTask和arrayOfLabels参数">
+      <created>1528510994014</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1528510994014</updated>
+    </task>
+    <task id="LOCAL-00017" summary="整合标注算法修改">
+      <created>1528511093135</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1528511093135</updated>
+    </task>
+    <task id="LOCAL-00018" summary="聚类算法">
+      <created>1528529296836</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1528529296836</updated>
+    </task>
+    <task id="LOCAL-00019" summary="聚类算法">
+      <created>1528529700862</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1528529700862</updated>
+    </task>
+    <task id="LOCAL-00020" summary="聚类算法">
+      <created>1528529730949</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1528529730949</updated>
+    </task>
+    <task id="LOCAL-00021" summary="bug修复">
+      <created>1528572316600</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1528572316600</updated>
+    </task>
+    <task id="LOCAL-00022" summary="方框标注整合修改">
+      <created>1528595535635</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1528595535635</updated>
+    </task>
+    <task id="LOCAL-00023" summary="方框标注整合修改">
+      <created>1528597618480</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1528597618480</updated>
+    </task>
+    <task id="LOCAL-00024" summary="添加系统管理员">
+      <created>1528600907636</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1528600907636</updated>
+    </task>
+    <task id="LOCAL-00025" summary="添加系统管理员">
+      <created>1528600980493</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1528600980493</updated>
+    </task>
+    <task id="LOCAL-00026" summary="bug修复">
+      <created>1528601606859</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1528601606859</updated>
+    </task>
+    <task id="LOCAL-00027" summary="bug修改">
+      <created>1528891295203</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1528891295203</updated>
+    </task>
+    <task id="LOCAL-00028" summary="数据">
+      <created>1528891499300</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1528891499300</updated>
+    </task>
+    <task id="LOCAL-00029" summary="bug修改">
+      <created>1528892220869</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1528892220869</updated>
+    </task>
+    <task id="LOCAL-00030" summary="bug修改">
+      <created>1528894769582</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1528894769582</updated>
+    </task>
+    <task id="LOCAL-00031" summary="bug修改">
+      <created>1528896011367</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1528896011367</updated>
+    </task>
+    <task id="LOCAL-00032" summary="bug修改">
+      <created>1528973982761</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1528973982761</updated>
+    </task>
+    <task id="LOCAL-00033" summary="bug修改">
+      <created>1528976345828</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1528976345828</updated>
+    </task>
+    <task id="LOCAL-00034" summary="bug修改">
+      <created>1528976633266</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1528976633266</updated>
+    </task>
+    <task id="LOCAL-00035" summary="bug修改">
+      <created>1529126377547</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1529126377547</updated>
+    </task>
+    <task id="LOCAL-00036" summary="bug修改">
+      <created>1529127758652</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1529127758652</updated>
+    </task>
+    <task id="LOCAL-00037" summary="bug修改">
+      <created>1529127831396</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1529127831396</updated>
+    </task>
+    <task id="LOCAL-00038" summary="bug修改">
+      <created>1529128427481</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1529128427481</updated>
+    </task>
+    <task id="LOCAL-00039" summary="bug修改">
+      <created>1529128444771</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1529128444771</updated>
+    </task>
+    <task id="LOCAL-00040" summary="bug修改">
+      <created>1529131031451</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1529131031451</updated>
+    </task>
+    <task id="LOCAL-00041" summary="bug修改">
+      <created>1529131067390</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1529131067390</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Merge branch 'master' of http://114.215.188.21/secIII/Crowdsourcing_lteration3&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskId/TaskId.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskImg/0/0.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskInformation/TaskInformation.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskList/0/description.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/UserList/UserList.txt">
+      <created>1529198941543</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1529198941543</updated>
+    </task>
+    <task id="LOCAL-00043" summary="bug修改">
+      <created>1529200466642</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1529200466642</updated>
+    </task>
+    <task id="LOCAL-00044" summary="bug修改">
+      <created>1529207303483</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1529207303483</updated>
+    </task>
+    <task id="LOCAL-00045" summary="bug修改">
+      <created>1529207434860</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1529207434860</updated>
+    </task>
+    <task id="LOCAL-00046" summary="bug修改">
+      <created>1529207479293</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1529207479293</updated>
+    </task>
+    <task id="LOCAL-00047" summary="bug修改">
+      <created>1529518596068</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1529518596068</updated>
+    </task>
+    <task id="LOCAL-00048" summary="bug修改">
+      <created>1529518680283</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1529518680283</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Merge branch 'master' of http://114.215.188.21/secIII/Crowdsourcing_lteration3&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskId/TaskId.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskImg/2/0.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskImg/3/0.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskImg/4/0.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskImg/5/0.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskImg/6/0.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskImg/7/0.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskImg/8/0.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskInformation/TaskInformation.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskList/0/description.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskList/1/description.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskList/2/description.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskList/3/description.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskList/4/description.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskList/5/description.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskList/6/description.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskList/7/description.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskList/8/description.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/UserTaskIndexList/12.txt">
+      <created>1531380949069</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1531380949069</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="140971000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="247" y="49" width="1400" height="1000" extended-state="1" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3676313" sideWeight="0.51502144" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36766466" sideWeight="0.48390558" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3676313" sideWeight="0.48497853" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23604827" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978564" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.49785408" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3676313" sideWeight="0.51287556" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978564" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.49785408" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.48444206" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3676313" sideWeight="0.48712447" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2886266" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="基本实现url映射&#10;新建了一个任务以测试发布任务功能" />
+    <MESSAGE value="修改了文件夹的结构" />
+    <MESSAGE value="微调" />
+    <MESSAGE value="整合方框" />
+    <MESSAGE value="Merge branch 'master' of http://114.215.188.21/secIII/Crowdsourcing_lteration3&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Controller/TaskController.java&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskInformation/TaskInformation.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/UserTaskIndexList/123.txt&#10;#&#9;src/main/resources/static/js/mytask_built.js&#10;#&#9;src/main/resources/static/js/mytask_joined.js&#10;#&#9;src/main/resources/static/js/taskdetails_requestor.js&#10;#&#9;src/main/resources/static/js/viewtheLabel.js" />
+    <MESSAGE value="完成url映射" />
+    <MESSAGE value="1.整合标注算法修改&#10;2.发布任务前端修改，添加了kindOfTask和arrayOfLabels参数" />
+    <MESSAGE value="整合标注算法修改" />
+    <MESSAGE value="推荐功能点支持" />
+    <MESSAGE value="聚类算法" />
+    <MESSAGE value="方框标注整合修改" />
+    <MESSAGE value="添加系统管理员" />
+    <MESSAGE value="bug修复" />
+    <MESSAGE value="数据" />
+    <MESSAGE value="Merge branch 'master' of http://114.215.188.21/secIII/Crowdsourcing_lteration3&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskId/TaskId.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskImg/0/0.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskInformation/TaskInformation.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskList/0/description.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/UserList/UserList.txt" />
+    <MESSAGE value="bug修改" />
+    <MESSAGE value="Merge branch 'master' of http://114.215.188.21/secIII/Crowdsourcing_lteration3&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskId/TaskId.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskImg/2/0.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskImg/3/0.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskImg/4/0.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskImg/5/0.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskImg/6/0.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskImg/7/0.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskImg/8/0.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskInformation/TaskInformation.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskList/0/description.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskList/1/description.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskList/2/description.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskList/3/description.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskList/4/description.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskList/5/description.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskList/6/description.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskList/7/description.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskList/8/description.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/UserTaskIndexList/12.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of http://114.215.188.21/secIII/Crowdsourcing_lteration3&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskId/TaskId.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskImg/2/0.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskImg/3/0.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskImg/4/0.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskImg/5/0.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskImg/6/0.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskImg/7/0.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskImg/8/0.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskInformation/TaskInformation.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskList/0/description.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskList/1/description.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskList/2/description.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskList/3/description.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskList/4/description.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskList/5/description.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskList/6/description.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskList/7/description.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/TaskList/8/description.txt&#10;#&#9;src/main/java/com/seciii/crowdsourcing/Data/UserTaskIndexList/12.txt" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="23" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/i/examples/admin-ie.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/i/examples/loginPage.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/i/examples/sidebarPage.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/i/examples/landingPage.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/i/examples/admin-opera.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/i/examples/blogPage.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/i/examples/adminPage.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/i/examples/admin-safari.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/i/app-icon72x72@2x.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/i/favicon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/0/12.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskTemporaryFile/0/12.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/1/123.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/1/1234.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/UserTaskIndexList/123.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Controller/LabelManageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7864">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/UserTaskIndexList/12.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/css/admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="373" column="0" lean-forward="true" selection-start-line="373" selection-start-column="0" selection-end-line="373" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/UserHobby/12.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/UserHobby/1234.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/UserHobby/animal.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/1/accuracy.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/css/amazeui.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="317" column="1788" lean-forward="true" selection-start-line="317" selection-start-column="1788" selection-end-line="317" selection-end-column="1788" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/css/amazeui.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="2934" column="14" lean-forward="false" selection-start-line="2934" selection-start-column="14" selection-end-line="2934" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/UserHobby/123.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/assets/css/pace_1.0.2_themes_blue_pace-theme-barber-shop.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/lib/pace.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/releaseTask.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/taskdetails_requestor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/mainpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="54" column="91" lean-forward="false" selection-start-line="54" selection-start-column="91" selection-end-line="54" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/loadAllTasks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3082">
+          <caret line="136" column="27" lean-forward="false" selection-start-line="136" selection-start-column="27" selection-end-line="136" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/UserList/UserList.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskInformation/TaskInformation.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/8/1234.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/1/12.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskImg/0/0.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5336">
+          <caret line="232" column="76" lean-forward="false" selection-start-line="232" selection-start-column="76" selection-end-line="232" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.4.RELEASE/spring-web-5.0.4.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="128" column="0" lean-forward="false" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Dao/SquareLabel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Controller/UrlController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/8/12.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="108" lean-forward="false" selection-start-line="3" selection-start-column="108" selection-end-line="3" selection-end-column="108" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/8/12345.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="113" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/8/123456.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/9/description.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskId/TaskId.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/8/123.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Data/TaskList/8/Wzq.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Controller/KMeans.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="50" column="5" lean-forward="false" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Controller/TaskController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20194">
+          <caret line="893" column="42" lean-forward="false" selection-start-line="893" selection-start-column="42" selection-end-line="893" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/seciii/crowdsourcing/Controller/LabelApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>label</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,5 @@
+{"type":1,"startX":236,"startY":100,"width":"131","height":"163","comment":"头","taskname":"8","username":"123456"}
+{"type":1,"startX":231,"startY":427,"width":"63","height":"38","comment":"爪","taskname":"8","username":"123456"}
+{"type":1,"startX":323,"startY":427,"width":"58","height":"37","comment":"爪","taskname":"8","username":"123456"}
+{"type":1,"startX":408,"startY":407,"width":"71","height":"32","comment":"爪","taskname":"8","username":"123456"}
+{"type":1,"startX":565,"startY":391,"width":"63","height":"40","comment":"爪","taskname":"8","username":"123456"}

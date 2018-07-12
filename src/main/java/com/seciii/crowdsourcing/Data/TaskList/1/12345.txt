@@ -1,0 +1,2 @@
+{"type":1,"startX":356,"startY":281,"width":"297","height":"187","comment":"山","taskname":"1","username":"12345"}
+{"type":1,"startX":66,"startY":122,"width":"260","height":"230","comment":"雾","taskname":"1","username":"12345"}

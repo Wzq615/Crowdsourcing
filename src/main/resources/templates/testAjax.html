@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="../static/lib/jquery.js"></script>
+<script>
+    function get1() {
+        $.get("http://127.0.0.1:8080/hello",function (data) {
+            alert(data);
+        })
+    }
+</script>
+<body>
+<a href="javascript:get1()" href="#">get1</a>
+</body>
+</html>

@@ -1,0 +1,155 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <title>发布任务</title>
+    <link rel="stylesheet" href="/assets/css/amazeui.min.css"/>
+    <link rel="stylesheet" href="/assets/css/admin.css">
+</head>
+<body>
+<header class="am-topbar am-topbar-inverse admin-header">
+    <div class="am-u-md-8 am-u-md-push-2">
+        <div class="am-topbar-brand">
+            <a href="/mainpage">
+                <strong>Crowdsourcing</strong>
+                <small>
+                    众包标注平台
+                </small>
+            </a>
+        </div>
+
+        <div class="am-collapse am-topbar-collapse" id="topbar-collapse">
+            <ul class="am-nav am-nav-pills am-topbar-nav am-topbar-right admin-header-list">
+                <li class="am-hide-sm-only">
+                    <a href="/mytask_built">
+                        我发布的任务
+                        <span class="am-badge am-badge-warning">5</span>
+                    </a>
+                </li>
+                <li class="am-hide-sm-only">
+                    <a href="/mytask_joined">
+                        我参与的任务
+                        <span class="am-badge am-badge-warning">5</span>
+                    </a>
+                </li>
+
+                <li class="am-dropdown" >
+                    <a href="/selfpage" class="am-dropdown-toggle" id="user">
+                        用户{{username}}
+                    </a>
+                </li>
+                <li>
+                    <a href = "/logout">
+                        退出
+                        <span class="am-icon-sign-out"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<div class="am-cf admin-main">
+    <!-- content start -->
+    <div class="admin-content">
+        <div class="admin-content-body am-u-md-8 am-u-md-push-2 am-panel am-panel-default">
+            <div class="am-cf am-padding am-padding-bottom-0">
+                <div class="am-fl am-cf">
+                    <strong class="am-text-primary am-text-lg">发布任务</strong> / <small>Release Task</small>
+                </div>
+            </div>
+            <hr>
+            <div class="am-u-sm-12 am-u-md-12">
+                <form class="am-form am-form-horizontal">
+                    <div class="am-form-group">
+                        <label for="taskname" class="am-u-sm-4 am-form-label">任务名称</label>
+                        <div class="am-u-sm-8">
+                            <input type="text" id="taskname" placeholder="不超过20字" maxlength="20" autofocus>
+                        </div>
+                    </div>
+                    <div class="am-form-group">
+                        <label for="type" class="am-u-sm-4 am-form-label">任务类型</label>
+                        <div class="am-u-sm-8">
+                            <select id="type">
+                                <option>动物类</option>
+                                <option>植物类</option>
+                                <option>人物类</option>
+                                <option>物品类</option>
+                                <option>其它</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="am-form-group">
+                        <label for="mode" class="am-u-sm-4 am-form-label">标注方式</label>
+                        <div class="am-u-sm-8">
+                        <select id="mode">
+                            <option>整体标注</option>
+                            <option>方框标注</option>
+                            <option>局部标注</option>
+                        </select>
+                        </div>
+                    </div>
+                    <div class="am-form-group">
+                        <label for="numofneed" class="am-u-sm-4 am-form-label">需要人数</label>
+                        <div class="am-u-sm-8">
+                            <input type="number" id="numofneed" min="1" max="50" step="1" placeholder="不超过50人">
+                        </div>
+                    </div>
+                    <div class="am-form-group">
+                        <label for="point" class="am-u-sm-4 am-form-label">积分奖励</label>
+                        <div class="am-u-sm-8">
+                            <input type="number" id="point" min="0" placeholder="完成任务可获得的积分数量">
+                        </div>
+                    </div>
+                    <div class="am-form-group">
+                        <label for="deadline" class="am-u-sm-4 am-form-label">截止日期</label>
+                        <div class="am-u-sm-8">
+                            <input type="date" id="deadline" min="2000-1-1">
+                        </div>
+                    </div>
+                    <div class="am-form-group">
+                        <label for="labels" class="am-u-sm-4 am-form-label">标签</label>
+                        <div class="am-u-sm-8">
+                            <input type="text" id="labels" placeholder="请提供标注标签，以空格隔开">
+                        </div>
+                    </div>
+                    <div class="am-form-group">
+                        <label for="description" class="am-u-sm-4 am-form-label">任务详情</label>
+                        <div class="am-u-sm-8">
+                            <textarea class="" rows="5" id="description" placeholder="详细描述"></textarea>
+                        </div>
+                    </div>
+                </form>
+                <div class="am-u-sm-12 am-u-md-8">
+                    <div class="am-form-group am-u-sm-push-8">
+                    <form id="imageForm" name="imageForm" enctype="multipart/form-data">
+                        <input type="file" name="file" multiple accept=".jpg" id="image">
+                    </form>
+                    <small>请上传jpg格式的图片,请选择所有想要上传的图片</small>
+                    </div>
+                </div>
+                <ul class="am-avg-sm-1 am-avg-md-2 am-avg-lg-4 am-margin gallery-list" id="showPic">
+                </ul>
+                <div class="am-form-group">
+                    <div class="am-u-sm-6 am-u-sm-push-6">
+                        <button type="button" class="am-btn am-btn-primary" onclick="release()">发布任务</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- content end -->
+<footer>
+    <div class="admin-content-body am-u-md-8 am-u-md-push-2 am-panel am-panel-default">
+        <hr>
+        <p class="am-padding-left">© 2014 AllMobilize, Inc. Licensed under MIT license.</p>
+    </div>
+</footer>
+
+<script src="/lib/vue.js"></script>
+<script src="/lib/jquery.js"></script>
+<script src="/js/releaseTask.js"></script>
+
+</body>
+</html>

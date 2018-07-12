@@ -1,0 +1,105 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <title>任务详情</title>
+    <link rel="stylesheet" href="/assets/css/amazeui.min.css"/>
+    <link rel="stylesheet" href="/assets/css/admin.css">
+</head>
+<body>
+
+<header class="am-topbar am-topbar-inverse admin-header">
+    <div class="am-u-md-8 am-u-md-push-2">
+        <div class="am-topbar-brand">
+            <a href="/mainpage">
+                <strong>Crowdsourcing</strong>
+                <small>
+                    众包标注平台
+                </small>
+            </a>
+        </div>
+
+        <div class="am-collapse am-topbar-collapse" id="topbar-collapse">
+            <ul class="am-nav am-nav-pills am-topbar-nav am-topbar-right admin-header-list">
+                <li class="am-hide-sm-only">
+                    <a href="/mytask_built">
+                        我发布的任务
+                        <span class="am-badge am-badge-warning">5</span>
+                    </a>
+                </li>
+                <li class="am-hide-sm-only">
+                    <a href="/mytask_joined">
+                        我参与的任务
+                        <span class="am-badge am-badge-warning">5</span>
+                    </a>
+                </li>
+
+                <li class="am-dropdown" >
+                    <a href="/selfpage" class="am-dropdown-toggle" id="user">
+                        用户{{username}}
+                    </a>
+                </li>
+                <li>
+                    <a href = "/logout">
+                        退出
+                        <span class="am-icon-sign-out"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<div class="am-cf admin-main">
+
+    <!-- content start -->
+    <div class="admin-content">
+        <hr>
+        <div class="am-u-md-8 am-u-md-push-2 am-panel am-panel-default">
+            <div class="am-panel-bd">
+                <div class="am-u-md-3">
+                    <img id="cover" class="am-img-circle am-img-thumbnail" src="http://s.amazeui.org/media/i/demos/bw-2014-06-19.jpg?imageView/1/w/200/h/200/q/80" alt="" width="10000"/>
+                </div>
+                <div class="am-u-md-9" id="info">
+                    <h1>任务名称：{{taskName}}</h1>
+                    <p class="user-info-order">
+                        标注模式：{{mode}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;任务类型：{{kindOfTask}}<br>
+                        当前参与人数：{{numOfPart}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;需要人数：{{numOfNeeded}}<br>
+                        发起者：{{requester}}<br>
+                        积分奖励：{{point}}分<br>
+                        截止日期：{{deadline}}<br>
+
+                    </p>
+                    <button type="button" class="am-btn am-btn-primary" onclick="closeTask()">关闭任务</button>
+                    <hr>
+                </div>
+                <hr>
+            </div>
+        </div>
+        <div class="am-u-md-8 am-u-md-push-2 am-panel am-panel-default">
+            <div class="am-panel-bd">
+                <h1>参与者列表</h1>
+                <small id="description">点击参与者可查看其标注详情</small>
+                <ul class="am-avg-sm-2 am-avg-md-4 am-avg-lg-6 am-margin gallery-list" id="workerList"></ul>
+            </div>
+            <ul class="am-avg-sm-1 am-avg-md-2 am-avg-lg-4 am-margin gallery-list" id="showImage">
+            </ul>
+        </div>
+    </div>
+    <!-- content end -->
+</div>
+
+
+<footer>
+    <div class="admin-content-body am-u-md-8 am-u-md-push-2 am-panel am-panel-default">
+        <hr>
+        <p class="am-padding-left">© 2014 AllMobilize, Inc. Licensed under MIT license.</p>
+    </div>
+</footer>
+
+<script src="/lib/vue.js"></script>
+<script src="/lib/jquery.js"></script>
+<script src="/js/taskdetails_requestor.js"></script>
+
+</body>
+</html>

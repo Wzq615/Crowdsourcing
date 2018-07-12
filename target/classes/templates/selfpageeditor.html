@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>编辑个人资料</title>
+  <link rel="stylesheet" href="/assets/css/amazeui.min.css"/>
+  <link rel="stylesheet" href="/assets/css/admin.css">
+</head>
+<body>
+<header class="am-topbar am-topbar-inverse admin-header">
+  <div class="am-u-md-8 am-u-md-push-2">
+    <div class="am-topbar-brand">
+      <a href="/mainpage">
+        <strong>Crowdsourcing</strong>
+        <small>
+          众包标注平台
+        </small>
+      </a>
+    </div>
+
+    <div class="am-collapse am-topbar-collapse" id="topbar-collapse">
+      <ul class="am-nav am-nav-pills am-topbar-nav am-topbar-right admin-header-list">
+        <li class="am-hide-sm-only">
+          <a href="/mytask_built">
+            我发布的任务
+            <span class="am-badge am-badge-warning">5</span>
+          </a>
+        </li>
+        <li class="am-hide-sm-only">
+          <a href="/mytask_joined">
+            我参与的任务
+            <span class="am-badge am-badge-warning">5</span>
+          </a>
+        </li>
+
+        <li class="am-dropdown" >
+          <a href="/selfpage" class="am-dropdown-toggle" id="user">
+            用户{{username}}
+          </a>
+        </li>
+        <li>
+          <a href = "/logout">
+            退出
+            <span class="am-icon-sign-out"></span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="am-cf admin-main">
+  <!-- content start -->
+  <div class="admin-content">
+    <div class="admin-content-body am-u-md-8 am-u-md-push-2 am-panel am-panel-default">
+      <div class="am-cf am-padding am-padding-bottom-0">
+        <div class="am-fl am-cf">
+          <strong class="am-text-primary am-text-lg">编辑个人资料</strong> / <small>Edit personal information</small>
+        </div>
+      </div>
+	  <hr>
+      <div class="am-u-md-4 am-u-md-push-8">
+        <div class="am-panel am-panel-default">
+          <div class="am-panel-bd">
+           <div class="am-g">
+            <div class="am-u-md-8">
+              <img class="am-img-circle am-img-thumbnail" id="newImage" src="http://s.amazeui.org/media/i/demos/bw-2014-06-19.jpg?imageView/1/w/200/h/200/q/80" alt="" width="1000"/>
+            </div>
+            <div class="am-u-md-pull-0">
+              <div class="am-form-group">
+                <form id="imageForm" name="imageForm" enctype="multipart/form-data">
+                  <input type="file" name="file" accept=".jpg" id="image">
+                </form>
+                <small>只允许上传jpg格式的头像...</small>
+              </div>
+            </div>
+			  </div>
+          </div>
+        </div>
+        </div>
+      <div class="am-u-sm-12 am-u-md-8 am-u-md-pull-4">
+        <form class="am-form am-form-horizontal">
+          <div class="am-form-group">
+            <label for="name" class="am-u-sm-4 am-form-label">姓名 / Name</label>
+            <div class="am-u-sm-8">
+              <input type="text" id="name" placeholder="姓名 / Name" autofocus>
+            </div>
+          </div>
+          <div class="am-form-group">
+            <label for="email" class="am-u-sm-4 am-form-label">电子邮件 / Email</label>
+            <div class="am-u-sm-8">
+              <input type="email" id="email" placeholder="输入你的电子邮件 / Email">
+            </div>
+          </div>
+          <div class="am-form-group">
+            <label for="telephone" class="am-u-sm-4 am-form-label">电话 / Telephone</label>
+            <div class="am-u-sm-8">
+              <input type="tel" id="telephone" placeholder="输入你的电话号码 / Telephone">
+            </div>
+          </div>
+          <div class="am-form-group">
+            <label for="description" class="am-u-sm-4 am-form-label">简介 / Intro</label>
+            <div class="am-u-sm-8">
+              <textarea class="" rows="5" id="description" placeholder="输入个人简介"></textarea>
+            </div>
+          </div>
+          <div class="am-form-group">
+            <div class="am-u-sm-8 am-u-sm-push-5">
+              <button type="button" class="am-btn am-btn-primary" onclick="save()">保存修改</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- content end -->
+<footer>
+  <div class="admin-content-body am-u-md-8 am-u-md-push-2 am-panel am-panel-default">
+    <hr>
+    <p class="am-padding-left">© 2014 AllMobilize, Inc. Licensed under MIT license.</p>
+  </div>
+</footer>
+
+<script src="/lib/jquery.js"></script>
+<script src="/lib/vue.js"></script>
+<script src="/js/selfpageeditor.js"></script>
+
+</body>
+</html>

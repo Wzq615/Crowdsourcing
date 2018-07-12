@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>主页</title>
+    <link rel="stylesheet" href="/assets/css/amazeui.min.css"/>
+    <link rel="stylesheet" href="/assets/css/admin.css">
+</head>
+<body>
+
+<header class="am-topbar am-topbar-inverse admin-header">
+    <div class="am-u-md-8 am-u-md-push-2">
+        <div class="am-topbar-brand">
+            <a href="/mainpage">
+                <strong>Crowdsourcing</strong>
+                <small>
+                    众包标注平台
+                </small>
+            </a>
+        </div>
+
+        <div class="am-collapse am-topbar-collapse" id="topbar-collapse">
+            <ul class="am-nav am-nav-pills am-topbar-nav am-topbar-right admin-header-list">
+                <li class="am-hide-sm-only">
+                    <a href="/mytask_built">
+                        我发布的任务
+                        <span class="am-badge am-badge-warning">5</span>
+                    </a>
+                </li>
+                <li class="am-hide-sm-only">
+                    <a href="/mytask_joined">
+                        我参与的任务
+                        <span class="am-badge am-badge-warning">5</span>
+                    </a>
+                </li>
+
+                <li class="am-dropdown" >
+                    <a href="/selfpage" class="am-dropdown-toggle" id="user">
+                        用户{{username}}
+                    </a>
+                </li>
+                <li>
+                    <a href = "/logout">
+                        退出
+                        <span class="am-icon-sign-out"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<div class="am-cf admin-main">
+    <div class="admin-content">
+        <div class="admin-content-body am-u-md-8 am-u-md-push-2 am-panel am-panel-default">
+            <div class="admin-content-body">
+                <div class="am-cf am-padding am-padding-bottom-0">
+                    <div class="am-fl am-cf">
+                        <strong class="am-text-primary am-text-lg">
+                            所有任务
+                        </strong>
+                        /
+                        <small>
+                            All Assignments
+                        </small>
+                        <button type="button" class="am-btn am-btn-primary am-btn-xs" onclick="releaseTaskClick()">
+                            发布任务
+                        </button>
+                    </div>
+                </div>
+                <hr>
+
+                <ul class="am-avg-sm-2 am-avg-md-4 am-avg-lg-6 am-margin gallery-list" id="taskList"></ul>
+
+
+                <div class="am-margin am-cf" id="tasknum">
+                    <hr/>
+                    <p class="am-fl">共{{tasknum}}条记录</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>>
+<footer>
+    <div class="admin-content-body am-u-md-8 am-u-md-push-2 am-panel am-panel-default">
+        <hr>
+        <p class="am-padding-left">© 2014 AllMobilize, Inc. Licensed under MIT license.</p>
+    </div>
+</footer>
+
+<script src="/lib/vue.js"></script>
+<script src="/lib/jquery.js"></script>
+<script src="/js/loadAllTasks.js"></script>
+
+</body>
+</html>

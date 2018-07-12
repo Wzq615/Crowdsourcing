@@ -1,0 +1,277 @@
+<!doctype html>
+<html class="no-js fixed-layout">
+<head>
+  <meta charset="utf-8">
+  <title>管理员</title>
+  <link rel="stylesheet" href="/assets/css/amazeui.min.css"/>
+  <link rel="stylesheet" href="/assets/css/admin.css">
+</head>
+<body>
+
+<header class="am-topbar am-topbar-inverse admin-header">
+ <div class="am-u-md-8 am-u-md-push-2">
+  <div class="am-topbar-brand">
+    <strong>Crowdsourcing</strong> <small>众包标注平台</small>
+  </div>
+
+  <div class="am-collapse am-topbar-collapse" id="topbar-collapse">
+    <ul class="am-nav am-nav-pills am-topbar-nav am-topbar-right admin-header-list">
+      <li class="am-dropdown" >
+        系统管理员
+      </li>
+    </ul>
+  </div>
+  </div>
+</header>
+
+<div class="am-cf admin-main">
+  <!-- content start -->
+  <div class="admin-content">
+   <div class="admin-content-body am-u-md-8 am-u-md-push-2 am-panel am-panel-default">
+    <div class="admin-content-body">
+      <div class="am-cf am-padding">
+        <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">管理员</strong> / <strong>Administrator</strong></div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+        <div class="am-u-md-10 am-u-md-push-1" >
+      <ul class="am-avg-sm-1 am-avg-md-4 am-margin am-padding am-text-center admin-content-list " id="info">
+        <li><a class="am-text-secondary"><span class="am-icon-btn am-icon-user-md"></span><br/>用户数<br/>{{numOfUsers}}</a></li>
+        <li><a class="am-text-success"><span class="am-icon-btn am-icon-file-text"></span><br/>任务数<br/>{{numOfTasks}}</a></li>
+        <li><a class="am-text-warning"><span class="am-icon-btn am-icon-briefcase"></span><br/>进行中<br/>{{numOfDoing}}</a></li>
+        <li><a class="am-text-danger"><span class="am-icon-btn am-icon-recycle"></span><br/>已完成<br/>{{numOfFinished}}</a></li>
+      </ul>
+    </div>
+      <!--<div class="am-g" style="display: block" id="users">-->
+        <!--<div class="am-u-sm-12">-->
+         <!--<div class="am-panel am-panel-default">-->
+          <!--<table class="am-table am-table-bd am-table-striped admin-content-table">-->
+            <!--<thead>-->
+            <!--<tr>-->
+              <!--<th>ID</th><th>用户名</th><th>最后成交任务</th><th>管理</th>-->
+            <!--</tr>-->
+            <!--</thead>-->
+            <!--<tbody>-->
+            <!--<tr><td>1</td><td>John Clark</td><td><a href="#">Business management</a></td>-->
+              <!--<td>-->
+                <!--<div class="am-dropdown" data-am-dropdown>-->
+                  <!--<button class="am-btn am-btn-default am-btn-xs am-dropdown-toggle" data-am-dropdown-toggle><span class="am-icon-cog"></span> <span class="am-icon-caret-down"></span></button>-->
+                  <!--<ul class="am-dropdown-content">-->
+                    <!--<li><a href="#">1. 编辑</a></li>-->
+                    <!--<li><a href="#">2. 下载</a></li>-->
+                    <!--<li><a href="#">3. 删除</a></li>-->
+                  <!--</ul>-->
+                <!--</div>-->
+              <!--</td>-->
+            <!--</tr>-->
+            <!--<tr><td>2</td><td>风清扬</td><td><a href="#">公司LOGO设计</a> </td>-->
+              <!--<td>-->
+                <!--<div class="am-dropdown" data-am-dropdown>-->
+                  <!--<button class="am-btn am-btn-default am-btn-xs am-dropdown-toggle" data-am-dropdown-toggle><span class="am-icon-cog"></span> <span class="am-icon-caret-down"></span></button>-->
+                  <!--<ul class="am-dropdown-content">-->
+                    <!--<li><a href="#">1. 编辑</a></li>-->
+                    <!--<li><a href="#">2. 下载</a></li>-->
+                    <!--<li><a href="#">3. 删除</a></li>-->
+                  <!--</ul>-->
+                <!--</div>-->
+              <!--</td>-->
+            <!--</tr>-->
+            <!--<tr><td>3</td><td>詹姆斯</td><td><a href="#">开发一款业务数据软件</a></td>-->
+              <!--<td>-->
+                <!--<div class="am-dropdown" data-am-dropdown>-->
+                  <!--<button class="am-btn am-btn-default am-btn-xs am-dropdown-toggle" data-am-dropdown-toggle><span class="am-icon-cog"></span> <span class="am-icon-caret-down"></span></button>-->
+                  <!--<ul class="am-dropdown-content">-->
+                    <!--<li><a href="#">1. 编辑</a></li>-->
+                    <!--<li><a href="#">2. 下载</a></li>-->
+                    <!--<li><a href="#">3. 删除</a></li>-->
+                  <!--</ul>-->
+                <!--</div>-->
+              <!--</td>-->
+            <!--</tr>-->
+            <!--<tr><td>4</td><td>云适配</td><td><a href="#">适配所有网站</a></td>-->
+              <!--<td>-->
+                <!--<div class="am-dropdown" data-am-dropdown>-->
+                  <!--<button class="am-btn am-btn-default am-btn-xs am-dropdown-toggle" data-am-dropdown-toggle><span class="am-icon-cog"></span> <span class="am-icon-caret-down"></span></button>-->
+                  <!--<ul class="am-dropdown-content">-->
+                    <!--<li><a href="#">1. 编辑</a></li>-->
+                    <!--<li><a href="#">2. 下载</a></li>-->
+                    <!--<li><a href="#">3. 删除</a></li>-->
+                  <!--</ul>-->
+                <!--</div>-->
+              <!--</td>-->
+            <!--</tr>-->
+
+            <!--<tr>-->
+              <!--<td>5</td><td>呵呵呵</td>-->
+              <!--<td><a href="#">基兰会获得BUFF</a></td>-->
+              <!---->
+              <!--<td>-->
+                <!--<div class="am-dropdown" data-am-dropdown>-->
+                  <!--<button class="am-btn am-btn-default am-btn-xs am-dropdown-toggle" data-am-dropdown-toggle><span class="am-icon-cog"></span> <span class="am-icon-caret-down"></span></button>-->
+                  <!--<ul class="am-dropdown-content">-->
+                    <!--<li><a href="#">1. 编辑</a></li>-->
+                    <!--<li><a href="#">2. 下载</a></li>-->
+                    <!--<li><a href="#">3. 删除</a></li>-->
+                  <!--</ul>-->
+                <!--</div>-->
+              <!--</td>-->
+            <!--</tr>-->
+            <!--</tbody>-->
+          <!--</table>-->
+        <!--</div>-->
+      <!--</div>-->
+      <!--</div>-->
+
+      <!--<div class="am-g" style="display: none" id="tasks">-->
+        <!--<div class="am-u-sm-12">-->
+          <!--<div class="am-panel am-panel-default">-->
+            <!--<table class="am-table am-table-bd am-table-striped admin-content-table">-->
+              <!--<thead>-->
+              <!--<tr>-->
+                <!--<th>ID</th><th>任务名称</th><th>提交数量</th><th>任务状态</th><th>查看详情</th>-->
+              <!--</tr>-->
+              <!--</thead>-->
+              <!--<tbody>-->
+              <!--<tr><td>1</td><td>动物整体标注</td><td>12/20</td><td>进行中</td><td><a href="#"><span class="am-icon-envelope-o"></span></a></td></tr>-->
+              <!--<tr><td>2</td><td>植物方框标注</td><td>12/20</td><td>已完成</td><td><a href="#"><span class="am-icon-envelope-o"></span></a></td></tr>-->
+              <!--<tr><td>3</td><td>明星整体标注</td><td>12/20</td><td>已完成</td><td><a href="#"><span class="am-icon-envelope-o"></span></a></td></tr>-->
+              <!--<tr><td>4</td><td>服装局部标注</td><td>12/20</td><td>进行中</td><td><a href="#"><span class="am-icon-envelope-o"></span></a></td></tr>-->
+              <!--<tr><td>5</td><td>车标方框标注</td><td>12/20</td><td>已完成</td><td><a href="#"><span class="am-icon-envelope-o"></span></a></td></tr>-->
+              <!--</tbody>-->
+            <!--</table>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
+
+      <!--<div class="am-g" style="display: none" id="doing">-->
+        <!--<div class="am-u-sm-12">-->
+          <!--<div class="am-panel am-panel-default">-->
+            <!--<table class="am-table am-table-bd am-table-striped admin-content-table">-->
+              <!--<thead>-->
+              <!--<tr>-->
+                <!--<th>ID</th><th>任务名称</th><th>提交数量</th><th>查看详情</th>-->
+              <!--</tr>-->
+              <!--</thead>-->
+              <!--<tbody>-->
+              <!--<tr><td>1</td><td>动物整体标注</td><td>12/20</td><td><a href="#"><span class="am-icon-envelope-o"></span></a></td></tr>-->
+              <!--<tr><td>2</td><td>植物方框标注</td><td>12/20</td><td><a href="#"><span class="am-icon-envelope-o"></span></a></td></tr>-->
+              <!--<tr><td>3</td><td>明星整体标注</td><td>12/20</td><td><a href="#"><span class="am-icon-envelope-o"></span></a></td></tr>-->
+              <!--<tr><td>4</td><td>服装局部标注</td><td>12/20</td><td><a href="#"><span class="am-icon-envelope-o"></span></a></td></tr>-->
+              <!--<tr><td>5</td><td>车标方框标注</td><td>12/20</td><td><a href="#"><span class="am-icon-envelope-o"></span></a></td></tr>-->
+              <!--</tbody>-->
+            <!--</table>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
+
+      <!--<div class="am-g" style="display: none" id="finished">-->
+        <!--<div class="am-u-sm-12">-->
+          <!--<div class="am-panel am-panel-default">-->
+            <!--<table class="am-table am-table-bd am-table-striped admin-content-table">-->
+              <!--<thead>-->
+              <!--<tr>-->
+                <!--<th>ID</th><th>任务名称</th><th>查看详情</th>-->
+              <!--</tr>-->
+              <!--</thead>-->
+              <!--<tbody>-->
+              <!--<tr><td>1</td><td>动物整体标注</td><td><a href="#"><span class="am-icon-envelope-o"></span></a></td></tr>-->
+              <!--<tr><td>2</td><td>植物方框标注</td><td><a href="#"><span class="am-icon-envelope-o"></span></a></td></tr>-->
+              <!--<tr><td>3</td><td>明星整体标注</td><td><a href="#"><span class="am-icon-envelope-o"></span></a></td></tr>-->
+              <!--<tr><td>4</td><td>服装局部标注</td><td><a href="#"><span class="am-icon-envelope-o"></span></a></td></tr>-->
+              <!--<tr><td>5</td><td>车标方框标注</td><td><a href="#"><span class="am-icon-envelope-o"></span></a></td></tr>-->
+              <!--</tbody>-->
+            <!--</table>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
+
+      <!--<div class="am-g" style="display: none" id="test" name="test">-->
+        <!--<div class="am-u-md-6">-->
+          <!--<div class="am-panel am-panel-default">-->
+            <!--<div class="am-panel-hd am-cf" data-am-collapse="{target: '#collapse-panel-1'}">文件上传<span class="am-icon-chevron-down am-fr" ></span></div>-->
+            <!--<div class="am-panel-bd am-collapse am-in" id="collapse-panel-1">-->
+              <!--<ul class="am-list admin-content-file">-->
+                <!--<li>-->
+                  <!--<strong><span class="am-icon-upload"></span> Kong-cetian.Mp3</strong>-->
+                  <!--<p>3.3 of 5MB - 5 mins - 1MB/Sec</p>-->
+                  <!--<div class="am-progress am-progress-striped am-progress-sm am-active">-->
+                    <!--<div class="am-progress-bar am-progress-bar-success" style="width: 82%">82%</div>-->
+                  <!--</div>-->
+                <!--</li>-->
+                <!--<li>-->
+                  <!--<strong><span class="am-icon-check"></span> 好人-cetian.Mp3</strong>-->
+                  <!--<p>3.3 of 5MB - 5 mins - 3MB/Sec</p>-->
+                <!--</li>-->
+                <!--<li>-->
+                  <!--<strong><span class="am-icon-check"></span> 其实都没有.Mp3</strong>-->
+                  <!--<p>3.3 of 5MB - 5 mins - 3MB/Sec</p>-->
+                <!--</li>-->
+              <!--</ul>-->
+            <!--</div>-->
+          <!--</div>-->
+          <!--<div class="am-panel am-panel-default">-->
+            <!--<div class="am-panel-hd am-cf" data-am-collapse="{target: '#collapse-panel-2'}">浏览器统计<span class="am-icon-chevron-down am-fr" ></span></div>-->
+            <!--<div id="collapse-panel-2" class="am-in">-->
+              <!--<table class="am-table am-table-bd am-table-bdrs am-table-striped am-table-hover">-->
+                <!--<tbody>-->
+                <!--<tr>-->
+                  <!--<th class="am-text-center">#</th>-->
+                  <!--<th>浏览器</th>-->
+                  <!--<th>访问量</th>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                  <!--<td class="am-text-center"><img src="../../../../../../Crowdsourcing_Iteration2(3)/Crowdsourcing_maven4/Label/src/main/resources/static/frontside/html/assets/i/examples/admin-chrome.png" alt=""></td>-->
+                  <!--<td>Google Chrome</td>-->
+                  <!--<td>3,005</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                  <!--<td class="am-text-center"><img src="../../../../../../Crowdsourcing_Iteration2(3)/Crowdsourcing_maven4/Label/src/main/resources/static/frontside/html/assets/i/examples/admin-firefox.png" alt=""></td>-->
+                  <!--<td>Mozilla Firefox</td>-->
+                  <!--<td>2,505</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                  <!--<td class="am-text-center"><img src="../../../../../../Crowdsourcing_Iteration2(3)/Crowdsourcing_maven4/Label/src/main/resources/static/frontside/html/assets/i/examples/admin-ie.png" alt=""></td>-->
+                  <!--<td>Internet Explorer</td>-->
+                  <!--<td>1,405</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                  <!--<td class="am-text-center"><img src="../../../../../../Crowdsourcing_Iteration2(3)/Crowdsourcing_maven4/Label/src/main/resources/static/frontside/html/assets/i/examples/admin-opera.png" alt=""></td>-->
+                  <!--<td>Opera</td>-->
+                  <!--<td>4,005</td>-->
+                <!--</tr>-->
+                <!--<tr>-->
+                  <!--<td class="am-text-center"><img src="../../../../../../Crowdsourcing_Iteration2(3)/Crowdsourcing_maven4/Label/src/main/resources/static/frontside/html/assets/i/examples/admin-safari.png" alt=""></td>-->
+                  <!--<td>Safari</td>-->
+                  <!--<td>505</td>-->
+                <!--</tr>-->
+                <!--</tbody>-->
+              <!--</table>-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
+    </div>
+
+
+  </div>
+  <!-- content end -->
+
+<footer>
+  <div class="admin-content-body am-u-md-8 am-u-md-push-2 am-panel am-panel-default">
+    <hr>
+    <p class="am-padding-left">© 2014 AllMobilize, Inc. Licensed under MIT license.</p>
+  </div>
+</footer>
+</div>
+</div>
+
+<script src="/lib/jquery.js"></script>
+<script src="/lib/vue.js"></script>
+<script src="/js/administrator.js"></script>
+
+</body>
+</html>

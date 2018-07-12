@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>众包标注工作区</title>
+    <link rel="stylesheet" href="/assets/css/amazeui.min.css"/>
+    <link rel="stylesheet" href="/assets/css/admin.css">
+    <link rel = "stylesheet" href = "/assets/css/work.css">
+
+</head>
+
+<header class="am-topbar am-topbar-inverse admin-header">
+    <div class="am-u-md-8 am-u-md-push-2">
+        <div class="am-topbar-brand">
+            <a href="/mainpage">
+                <strong>Crowdsourcing</strong>
+                <small>
+                    众包标注平台
+                </small>
+            </a>
+        </div>
+
+
+        <div class="am-collapse am-topbar-collapse" id="topbar-collapse">
+            <ul class="am-nav am-nav-pills am-topbar-nav am-topbar-right admin-header-list">
+                <!--<li class="am-hide-sm-only">-->
+                    <!--<a href="javascript:checkTasksIBuild();">-->
+                        <!--我发布的任务-->
+                        <!--<span class="am-badge am-badge-warning">5</span>-->
+                    <!--</a>-->
+                <!--</li>-->
+                <!--<li class="am-hide-sm-only">-->
+                    <!--<a href="javascript:checkTasksIJoin();">-->
+                        <!--我参与的任务-->
+                        <!--<span class="am-badge am-badge-warning">5</span>-->
+                    <!--</a>-->
+                <!--</li>-->
+
+                <!--<li class="am-dropdown" >-->
+                    <!--<a href="selfpage.html" class="am-dropdown-toggle" id="user">-->
+                        <!--用户{{username}}-->
+                    <!--</a>-->
+                <!--</li>-->
+                <li class = "logout">
+                    <a href = "/mainpage">
+                        离开工作区
+                        <span class="am-icon-sign-out">
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<div class = "am-align-left">
+
+    <div id="myNav" class="overlay">
+        <div class="overlay-content">
+            <p class = "task-content" id="taskInfo">
+                标注要求：{{taskMode}}
+                <br>
+                任务名：{{taskTag}}
+                <br>
+                任务详情：{{taskDescription}}
+                <br>
+                截止日期：{{taskDeadline}}
+            </p>
+        </div>
+    </div>
+
+</div>
+<div id="Layer1" ></div>
+<!--<div class="am-cf admin-main">-->
+    <div class="admin-content">
+        <div class="admin-content-body am-u-md-8 am-u-md-push-2 ">
+            <div class="admin-content-body">
+                <div class="am-cf am-padding am-padding-bottom-0">
+                    <div class="am-fl am-cf">
+                    </div>
+                </div>
+                <hr>
+                <ul class="am-avg-sm-2 am-avg-md-4 am-avg-lg-6 am-margin gallery-list">
+                    <button class="upload" id="submit" onclick="submittheLabel()">提交</button>
+                    <button class="upload" id="save" onclick="savetheLabel()">保存</button>
+                </ul>
+
+                <div class="am-margin am-cf" id="bottom">
+                    <canvas id="myCanvas">
+                        您的浏览器不支持 HTML5 canvas 标签。
+                    </canvas>
+                </div>
+                <!--<div id="des">-->
+                    <!--<textarea class="input_des" id="description"  placeholder=" 整体描述：" ></textarea>-->
+                <!--</div>-->
+            </div>
+
+        </div>
+    </div>
+<!--</div>>-->
+
+<script src="/lib/vue.js"></script>
+<script src="/lib/jquery.js"></script>
+<script src="/lib/Jcanvas.js"></script>
+
+<script src="/js/loadtheLabel.js"></script>
+<script src="/js/label.js"></script>
+<script src="/js/submittheLabel.js"></script>
+<script src="/js/savetheLabel.js"></script>
+
+</body>
+</html>

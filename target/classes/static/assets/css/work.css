@@ -1,0 +1,87 @@
+/* about work.html
+   created by mxf , 5/19,2018.
+ */
+.overlay {
+    height: 66%;
+    width: 22%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    overflow-y: hidden;
+    transition: 0.5s;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.overlay-content {
+    position: relative;
+    top: 40px;
+    width: 80%;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 6px;
+    word-break: break-all;
+    word-wrap: break-word;
+
+}
+
+.overlay p {
+    padding: 8px;
+    text-decoration-color: black;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 30px;
+    right: 15px;
+    font-size: 40px;
+    color: #818181;
+}
+
+#Layer1 {
+    position:absolute;
+    width:1px;
+    height:86%;
+    z-index:1;
+    background-color: #98a6ad;
+    left: 18%; top: 10%
+}
+
+.upload {
+    margin-top: 5%;
+    margin-left: 50%;
+    margin-right: auto;
+    width: 120px;
+    height: 30px;
+    background-color: #4fa4f8;
+    color: #3b3e47;
+    border-radius: 10px;
+}
+
+#myCanvas{
+    position:relative;
+    margin-left:18%;
+    //margin-right:auto;
+    margin-top: 5%;
+    background: transparent;
+    border:1px solid #c3c3c3;
+}
+
+.input_des{
+    width:280px;
+    height:240px;
+    line-height: 20px;
+    position:relative;
+    margin-left:96%;
+    //margin-right:0;
+    margin-top: -65%;
+    background: whitesmoke;
+}
